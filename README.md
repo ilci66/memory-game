@@ -8,8 +8,7 @@ I realized I didn't create anything fun lately and my protfolio needs some impro
 
 ### How It Works
 Array of 18 items is shuffled and rendered twice in the random order guaranteeing the render of the same image twice.
-Clicks on the grid items adds the image to the clicked grid item. For now the game lets the user open 2 cards at but
-match non-match logics not added yet. 
+Clicks on the grid items adds the image to the clicked grid item. 
 
 ### Technology Used
 *   Javascript
@@ -17,9 +16,10 @@ match non-match logics not added yet.
 *   CSS
 
 ### Improvements and Challanges
-*   I need to find a better way to place the images instead of the one I'm using
 *   Maybe keep the score between games
 *   Implement a point system where the wrong clicks are punished and matches are awarded
 
 ## How to Install and Use
-*   Clone the repository and have fun
+Clone the repository and have fun. More pics can be added by just making additions to the objects array.
+Duplication, randomization and rendering is handled in "doubleAndRender" and "shuffle" methods. Changing 
+the grid to suit your needs will be also necessary.
